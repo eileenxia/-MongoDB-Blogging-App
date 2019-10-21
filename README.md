@@ -1,6 +1,5 @@
-# Lab2d
-### Syed Tanveer & Eileen Xia (team 7)
-### CS61
+# MongoDB Blogging App
+### Eileen Xia and Syed Tanveer
 
 Make sure to have pymongo installed. Run these commands:
 `brew install pymongo`
