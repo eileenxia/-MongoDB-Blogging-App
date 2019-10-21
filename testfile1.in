@@ -1,0 +1,20 @@
+post blog1 ccp "Welcome!" "this is a new blog" "" 2018-10-01T01:01:01.422Z
+post blog1 ccp "My second post!" "this will get deleted" "tagvalue" 2018-10-02T11:01:28.425Z
+post blog1 ccp "this is my third post" "this is a not a new blog" "politics" 2018-10-01T01:01:01.422Z
+post blog2 ccp "blog 2 post" "this is a blog 2 post" "news, this, that" 2018-11-01T01:01:01.422Z
+post blog3 ccp "blog 3 post" "i am very interesting" "computer, science" 2018-12-01T01:01:01.422Z
+post blog4 ccp "another blog post" "welcome to my blog post" "interesting stuff" 2018-10-01T01:01:01.422Z
+comment blog1 blog1.2018-10-01T01:01:01.422Z syed "this is the commentbody" 2018-10-03T03:31:52.432Z
+comment blog2 blog2.2018-11-01T01:01:01.422Z eileen "im commeting on blog 2 post" 2018-11-03T03:31:52.432Z
+comment blog3 blog3.2018-12-01T01:01:01.422Z syed "i am a comment on blog 3 post" 2019-01-03T03:31:52.432Z
+comment blog1 blog1.2018-10-01T01:01:01.422Z eileen "id like to comment the second post" 2018-11-04T03:31:52.432Z
+comment blog1 blog1.2018-10-01T01:01:01.422Z syed "im commenting on welcome" 2018-11-03T03:31:52.432Z
+delete blog1 blog1.2018-10-02T11:01:28.425Z syed 2018-10-03T05:41:11.842Z
+delete blog2 blog2.2018-11-01T01:01:01.422Z eileen 2018-12-03T05:59:59.992Z
+show blog1
+show blog2
+show blog3
+show blog4
+search blog1 new
+search blog1 comment
+search blog3 interesting

@@ -1,0 +1,129 @@
+Connection established.
+connected to db
+Welcome! reading lines in file...
+
+-- showing content in blog1 --
+
+ username : ccp
+ tags: 
+ timestamp: 2018-10-01T01:01:01.422Z
+ permalink: blog1.Welcome_
+ body: this is a new blog
+ -------------
+
+    username : blog1
+    permalink: blog1.Welcome_
+    commentBody: this is the commentbody
+    -------------
+
+    username : blog1
+    permalink: blog1.Welcome_
+    commentBody: id like to comment the second post
+    -------------
+
+    username : blog1
+    permalink: blog1.Welcome_
+    commentBody: im commenting on welcome
+    -------------
+
+ username : ccp
+ tags: tagvalue
+ timestamp: 2018-10-02T11:01:28.425Z
+ permalink: blog1.My_second_post_
+ body: Blog deleted by syed at 2018-10-03T05:41:11.842Z
+ -------------
+
+ username : ccp
+ tags: politics
+ timestamp: 2018-10-01T01:01:01.422Z
+ permalink: blog1.this_is_my_third_post
+ body: this is a not a new blog
+ -------------
+
+
+-- showing content in blog2 --
+
+ username : ccp
+ tags: news, this, that
+ timestamp: 2018-11-01T01:01:01.422Z
+ permalink: blog2.blog_2_post
+ body: Blog deleted by eileen at 2018-12-03T05:59:59.992Z
+ -------------
+
+    username : blog2
+    permalink: blog2.blog_2_post
+    commentBody: im commeting on blog 2 post
+    -------------
+
+
+-- showing content in blog3 --
+
+ username : ccp
+ tags: computer, science
+ timestamp: 2018-12-01T01:01:01.422Z
+ permalink: blog3.blog_3_post
+ body: i am very interesting
+ -------------
+
+    username : blog3
+    permalink: blog3.blog_3_post
+    commentBody: i am a comment on blog 3 post
+    -------------
+
+
+-- showing content in blog4 --
+
+ username : ccp
+ tags: interesting stuff
+ timestamp: 2018-10-01T01:01:01.422Z
+ permalink: blog4.another_blog_post
+ body: welcome to my blog post
+ -------------
+
+
+ -- beginning search query in blog1 for: new -- 
+
+ username : ccp
+ tags: 
+ timestamp: 2018-10-01T01:01:01.422Z
+ permalink: blog1.Welcome_
+ body: this is a new blog
+ -------------
+
+
+ -- beginning search query in blog1 for: comment -- 
+
+ username : ccp
+ tags: 
+ timestamp: 2018-10-01T01:01:01.422Z
+ permalink: blog1.Welcome_
+ body: this is a new blog
+ -------------
+
+    username : blog1
+    permalink: blog1.Welcome_
+    commentBody: this is the commentbody
+    -------------
+
+    username : blog1
+    permalink: blog1.Welcome_
+    commentBody: id like to comment the second post
+    -------------
+
+    username : blog1
+    permalink: blog1.Welcome_
+    commentBody: im commenting on welcome
+    -------------
+
+
+ -- beginning search query in blog3 for: interesting -- 
+
+ username : ccp
+ tags: computer, science
+ timestamp: 2018-12-01T01:01:01.422Z
+ permalink: blog3.blog_3_post
+ body: i am very interesting
+ -------------
+
+cleaning up
+connection closed! Goodbye
